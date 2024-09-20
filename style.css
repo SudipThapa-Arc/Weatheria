@@ -1,0 +1,120 @@
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+            transition: background 0.5s ease;
+            padding: 20px;
+        }
+        #weather-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+        #weather-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+        h1, h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        #weather-icon {
+            width: 100px;
+            height: 100px;
+            margin: 20px auto;
+            transition: transform 0.3s ease;
+        }
+        #weather-icon:hover {
+            transform: scale(1.1);
+        }
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+        #address-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #error-message {
+            color: #ff0000;
+            font-weight: bold;
+        }
+        #suggestions {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 0 0 5px 5px;
+            max-height: 200px;
+            overflow-y: auto;
+            position: absolute;
+            width: calc(100% - 60px);
+            max-width: 540px;
+        }
+        #suggestions li {
+            padding: 10px;
+            cursor: pointer;
+            text-align: left;
+        }
+        #suggestions li:hover {
+            background-color: #f0f0f0;
+        }
+        .forecast {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .forecast-day {
+            flex-basis: calc(25% - 10px);
+            margin: 5px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .forecast-icon {
+            width: 50px;
+            height: 50px;
+        }
+   

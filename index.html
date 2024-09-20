@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatheria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <div id="weather-container" class="fade-in">
+        <h1>Weatheria</h1>
+        <button id="get-location">Use My Location</button>
+        <p>Or</p>
+        <input type="text" id="address-input" placeholder="Enter address or location">
+        <ul id="suggestions"></ul>
+        <button id="search-button">Search</button>
+        <div id="current-weather">
+            <img id="weather-icon" src="" alt="Weather Icon" style="display: none;">
+            <p id="location"></p>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+        <div id="forecast">
+            <h2>7-Day Forecast</h2>
+            <div class="forecast"></div>
+        </div>
+        <p id="error-message"></p>
+    </div>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
