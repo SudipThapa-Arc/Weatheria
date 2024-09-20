@@ -37,5 +37,5 @@ A user-friendly web application that provides real-time weather information and 
    const apiKey = 'your-weatherapi-key'; // Replace with your WeatherAPI.com API key
    
 ## Acknowledgments:
-WeatherAPI for providing weather data.
-Inspiration from various weather applications.
+- **[WeatherAPI](https://www.weatherapi.com/)** for providing weather data.
+- **Inspiration** from various weather applications.
