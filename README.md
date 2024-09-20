@@ -1,43 +1,41 @@
+# Advanced Weather App
+
 A user-friendly web application that provides real-time weather information and a 7-day forecast based on user input or location.
 
-Features
-Current Weather: Displays the current temperature, weather condition, and location.
-7-Day Forecast: Provides a detailed weather forecast for the next seven days.
-Location Search: Users can search for weather by entering an address or location.
-Geolocation: Users can use their current location to fetch weather data.
-Responsive Design: Works seamlessly on mobile and desktop devices.
-Technologies Used
-HTML: Structure of the application.
-CSS: Styling for a modern and responsive design.
-JavaScript: Client-side functionality and API interaction.
-WeatherAPI: Provides weather data through API calls.
+## Features
 
-Installation
-Clone the repository:
-``git clone https://github.com/yourusername/weather-app.git
-cd weather-app``
+- **Current Weather**: Displays the current temperature, weather condition, and location.
+- **7-Day Forecast**: Provides a detailed weather forecast for the next seven days.
+- **Location Search**: Users can search for weather by entering an address or location.
+- **Geolocation**: Users can use their current location to fetch weather data.
+- **Responsive Design**: Works seamlessly on mobile and desktop devices.
 
-Open the index.html file in your favorite web browser.
+## Technologies Used
 
-Configuration
-API Key: Replace the placeholder API key in script.js with your own WeatherAPI key.
-``const apiKey = 'your-weatherapi-key'; // Replace with your WeatherAPI.com API key``
-Save your changes and refresh the browser.
+- **HTML**: Structure of the application.
+- **CSS**: Styling for a modern and responsive design.
+- **JavaScript**: Client-side functionality and API interaction.
+- **WeatherAPI**: Provides weather data through API calls.
 
-Usage
-Open the app in a web browser.
-Use the "Use My Location" button to fetch the weather for your current location.
-Alternatively, enter an address or location in the input box and click "Search" to get the weather details.
+## Getting Started
 
-Contributing
-Contributions are welcome! If you have suggestions for improvements, please open an issue or submit a pull request.
+### Prerequisites
 
-Fork the repository
-Create your feature branch (git checkout -b feature/YourFeature)
-Commit your changes (git commit -m 'Add some feature')
-Push to the branch (git push origin feature/YourFeature)
-Open a pull request.
+- A web browser
+- An internet connection
 
-Acknowledgments
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/weather-app.git
+   cd weather-app 
+
+1. **Configuration:**
+   ```bash
+   const apiKey = 'your-weatherapi-key'; // Replace with your WeatherAPI.com API key
+   
+## Acknowledgments:
 WeatherAPI for providing weather data.
-Inspiration from various weather applications
+Inspiration from various weather applications.
