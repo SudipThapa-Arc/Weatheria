@@ -1,4 +1,4 @@
-# Advanced Weather App
+# Weatheria
 
 A user-friendly web application that provides real-time weather information and a 7-day forecast based on user input or location.
 
@@ -18,11 +18,6 @@ A user-friendly web application that provides real-time weather information and 
 - **WeatherAPI**: Provides weather data through API calls.
 
 ## Getting Started
-
-### Prerequisites
-
-- A web browser
-- An internet connection
 
 ### Installation
 
